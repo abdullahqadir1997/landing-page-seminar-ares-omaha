@@ -1,0 +1,1715 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Free Jiu-Jitsu Seminar with Coach Paul Nava — Ares BJJ Omaha 10-Year Celebration | June 13</title>
+<meta name="description" content="A free Jiu-Jitsu seminar with Coach Paul Nava — part of the Ares BJJ Omaha 10-Year Celebration. Belt promotions, food truck, bounce house, and a full day of community. June 13, 2026.">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Free Jiu-Jitsu Seminar with Coach Paul Nava — Ares BJJ Omaha">
+<meta property="og:description" content="Celebrate 10 years of Ares BJJ Omaha with a FREE seminar, belt promotions, food truck, bounce house & community celebration. June 13 — 10:00 AM.">
+<meta property="og:type" content="event">
+
+<link rel="icon" href="images/logo.jpg">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Manrope:wght@400;500;600;700;800&family=Bebas+Neue&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --bg: #07070a;
+    --bg-2: #0e0e12;
+    --bg-3: #15151c;
+    --paper: #f6f4ef;
+    --paper-2: #ebe7df;
+    --paper-3: #d9d4c7;
+    --ink: #f6f6f4;
+    --ink-2: #c8c8c0;
+    --ink-3: #8a8a82;
+    --ink-dark: #131318;
+    --ink-dark-2: #3a3a42;
+    --ink-dark-3: #5c5c64;
+    --red: #c8202c;
+    --red-hot: #e63042;
+    --red-deep: #8a0d16;
+    --gold: #c89a3b;
+    --gold-bright: #e4ba5e;
+    --line-dark: rgba(255,255,255,0.08);
+    --line-strong: rgba(255,255,255,0.18);
+    --line-light: rgba(0,0,0,0.10);
+    --line-light-strong: rgba(0,0,0,0.18);
+    --display: 'Anton', 'Bebas Neue', sans-serif;
+    --display-2: 'Archivo Black', sans-serif;
+    --body: 'Manrope', system-ui, sans-serif;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--body);
+    font-size: 17px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+  img { max-width: 100%; display: block; }
+  a { color: inherit; text-decoration: none; }
+
+  .container { max-width: 1240px; margin: 0 auto; padding: 0 28px; }
+  .container-narrow { max-width: 920px; margin: 0 auto; padding: 0 28px; }
+
+  /* ── Light / Dark themes ───────────────────────────────── */
+  .light {
+    background: var(--paper);
+    color: var(--ink-dark);
+  }
+  .light .eyebrow { color: var(--red); }
+  .light .eyebrow::before, .light .eyebrow::after { background: linear-gradient(90deg, transparent, var(--red)); }
+  .light .eyebrow.center::after { background: linear-gradient(90deg, var(--red), transparent); }
+  .light p { color: var(--ink-dark-2); }
+  .light .muted { color: var(--ink-dark-3); }
+  .light .line { background: var(--line-light); }
+
+  /* ── Typography ─────────────────────────────────────── */
+  .eyebrow {
+    font-family: var(--display);
+    font-size: 14px;
+    letter-spacing: 0.32em;
+    text-transform: uppercase;
+    color: var(--red-hot);
+    display: inline-flex;
+    align-items: center;
+    gap: 14px;
+  }
+  .eyebrow::before, .eyebrow::after {
+    content: "";
+    width: 32px; height: 2px;
+    background: linear-gradient(90deg, transparent, var(--red));
+  }
+  .eyebrow.center { justify-content: center; }
+  .eyebrow.center::after { background: linear-gradient(90deg, var(--red), transparent); }
+
+  .h-display {
+    font-family: var(--display);
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    line-height: 0.92;
+    text-transform: uppercase;
+  }
+
+  /* ── Buttons ─────────────────────────────────────── */
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    padding: 18px 32px;
+    font-family: var(--display);
+    font-size: 16px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    position: relative;
+    overflow: hidden;
+    color: var(--ink);
+  }
+  .btn-primary {
+    background: var(--red);
+    box-shadow: 0 12px 32px rgba(200, 32, 44, 0.35), inset 0 1px 0 rgba(255,255,255,0.12);
+  }
+  .btn-primary:hover {
+    background: var(--red-hot);
+    transform: translateY(-2px);
+    box-shadow: 0 18px 44px rgba(230, 48, 66, 0.45), inset 0 1px 0 rgba(255,255,255,0.2);
+  }
+  .btn .arrow { transition: transform 0.25s ease; }
+  .btn:hover .arrow { transform: translateX(4px); }
+
+  /* ── Nav ─────────────────────────────────────── */
+  nav.top {
+    position: fixed; top: 0; left: 0; right: 0;
+    z-index: 50;
+    padding: 14px 0;
+    background: linear-gradient(180deg, rgba(7,7,10,0.88), rgba(7,7,10,0.3));
+    backdrop-filter: blur(10px);
+    transition: background 0.3s ease, padding 0.3s ease;
+  }
+  nav.top.scrolled {
+    padding: 10px 0;
+    background: rgba(7,7,10,0.95);
+    border-bottom: 1px solid var(--line-dark);
+  }
+  nav.top .wrap {
+    max-width: 1240px; margin: 0 auto; padding: 0 28px;
+    display: flex; align-items: center; justify-content: space-between;
+  }
+  .brand {
+    display: flex; align-items: center; gap: 14px;
+    transition: transform 0.25s ease;
+  }
+  .brand:hover { transform: scale(1.04); }
+  .brand img {
+    width: 58px; height: 58px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.55), 0 0 0 2px rgba(255,255,255,0.06);
+  }
+  nav.top.scrolled .brand img { width: 50px; height: 50px; }
+  .nav-cta {
+    font-family: var(--display);
+    font-size: 13px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    padding: 10px 18px;
+    border: 1.5px solid var(--line-strong);
+    color: var(--ink);
+    transition: all 0.2s;
+  }
+  .nav-cta:hover { border-color: var(--red); color: var(--red-hot); }
+
+  /* ══════════════ HERO ══════════════ */
+  .hero {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 140px 0 0;
+  }
+  .hero-content {
+    margin-top: auto;
+    padding-bottom: 60px;
+  }
+  .hero-bg {
+    position: absolute; inset: 0;
+    background-image: url('images/hero.jpg');
+    background-size: cover;
+    background-position: center 25%;
+    filter: contrast(1.1) brightness(0.95) saturate(1.05);
+    transform: scale(1.05);
+    animation: kenburns 18s ease-out forwards;
+  }
+  @keyframes kenburns {
+    from { transform: scale(1.08); }
+    to { transform: scale(1.0); }
+  }
+  .hero-overlay {
+    position: absolute; inset: 0;
+    background:
+      radial-gradient(ellipse at 70% 30%, rgba(0,0,0,0) 0%, rgba(7,7,10,0.35) 60%),
+      linear-gradient(180deg, rgba(7,7,10,0.15) 0%, rgba(7,7,10,0.55) 50%, rgba(7,7,10,0.95) 100%),
+      linear-gradient(90deg, rgba(7,7,10,0.7) 0%, rgba(7,7,10,0.25) 55%, rgba(7,7,10,0.1) 100%);
+  }
+  .hero-grain {
+    position: absolute; inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' /%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.55'/%3E%3C/svg%3E");
+    mix-blend-mode: overlay;
+    opacity: 0.4;
+    pointer-events: none;
+  }
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+  }
+  .hero-grid {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 48px;
+    align-items: end;
+  }
+
+  /* H1 — main headline */
+  .hero-headline {
+    font-size: clamp(56px, 9.5vw, 142px);
+    max-width: 14ch;
+    margin-top: 26px;
+    animation: rise 1s ease 0.3s both;
+    text-shadow: 0 4px 30px rgba(0,0,0,0.4);
+  }
+  .hero-headline .red { color: var(--red-hot); }
+
+  /* H2 — celebrate kicker (sits below H1, smaller) */
+  .hero-kicker {
+    font-family: var(--display);
+    font-size: clamp(20px, 2.1vw, 32px);
+    letter-spacing: 0.04em;
+    line-height: 1.18;
+    text-transform: uppercase;
+    color: var(--ink);
+    margin: 26px 0 0;
+    max-width: 30ch;
+    animation: rise 1s ease 0.5s both;
+    text-shadow: 0 2px 18px rgba(0,0,0,0.5);
+  }
+  .hero-kicker .gold { color: var(--red-hot); }
+  .hero-kicker .red { color: var(--red-hot); }
+
+  .hero-sub {
+    margin-top: 28px;
+    max-width: 620px;
+    font-size: clamp(16px, 1.2vw, 19px);
+    color: var(--ink-2);
+    animation: rise 1s ease 0.6s both;
+  }
+  .hero-meta {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px 48px;
+    align-items: center;
+    animation: rise 1s ease 0.75s both;
+  }
+  .meta-item {
+    display: flex; align-items: center; gap: 14px;
+  }
+  .meta-item .icon {
+    width: 44px; height: 44px;
+    border: 1.5px solid var(--line-strong);
+    display: grid; place-items: center;
+    color: var(--red-hot);
+    flex-shrink: 0;
+  }
+  .meta-item .label {
+    font-size: 11px; letter-spacing: 0.24em; text-transform: uppercase; color: var(--ink-3);
+  }
+  .meta-item .val {
+    font-family: var(--display);
+    font-size: 22px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  .hero-ctas {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    animation: rise 1s ease 0.9s both;
+  }
+
+  /* "10 Years" Badge */
+  .decade-mark {
+    text-align: center;
+    animation: rise 1.2s ease 0.4s both;
+    position: relative;
+    padding: 24px 28px 28px;
+    background: linear-gradient(180deg, rgba(7,7,10,0.85) 0%, rgba(7,7,10,0.9) 100%);
+    backdrop-filter: blur(6px);
+  }
+  .decade-mark .frame {
+    position: absolute;
+    inset: 0;
+    border: 1.5px solid rgba(200, 32, 44, 0.55);
+    pointer-events: none;
+  }
+  .decade-mark .frame::before,
+  .decade-mark .frame::after {
+    content: "";
+    position: absolute;
+    width: 14px; height: 14px;
+    border: 2px solid var(--red-hot);
+  }
+  .decade-mark .frame::before {
+    top: -7px; left: -7px;
+    border-right: none; border-bottom: none;
+  }
+  .decade-mark .frame::after {
+    bottom: -7px; right: -7px;
+    border-left: none; border-top: none;
+  }
+  .decade-mark .top-tag {
+    font-family: var(--display);
+    font-size: 13px;
+    letter-spacing: 0.4em;
+    color: var(--ink);
+    text-transform: uppercase;
+    padding-bottom: 4px;
+  }
+  .decade-mark {
+    max-width: 280px;
+    margin-left: auto;
+  }
+  .decade-mark .num {
+    font-family: var(--display);
+    font-size: clamp(120px, 13vw, 180px);
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: var(--ink);
+    padding: 4px 0 0;
+    display: block;
+    filter: drop-shadow(0 8px 24px rgba(0, 0, 0, 0.5));
+  }
+  .decade-mark .num-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+  }
+  .decade-mark .side-stack {
+    display: flex; flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    font-family: var(--display);
+    text-transform: uppercase;
+  }
+  .decade-mark .side-stack .of {
+    font-size: 16px;
+    letter-spacing: 0.18em;
+    color: var(--ink-2);
+  }
+  .decade-mark .side-stack .yrs {
+    font-size: 26px;
+    letter-spacing: 0.06em;
+    color: var(--ink);
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    transform: rotate(180deg);
+    line-height: 1;
+  }
+  .decade-mark .label {
+    font-family: var(--display);
+    font-size: 12px;
+    letter-spacing: 0.42em;
+    color: var(--ink-2);
+    margin-top: 14px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .decade-mark .label::before,
+  .decade-mark .label::after {
+    content: "";
+    width: 22px;
+    height: 1px;
+    background: rgba(200, 32, 44, 0.55);
+  }
+
+  @keyframes rise {
+    from { opacity: 0; transform: translateY(28px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  /* Countdown */
+  .countdown-bar {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    border-top: 1px solid var(--line-strong);
+    border-bottom: 1px solid var(--line-strong);
+    background: rgba(0,0,0,0.4);
+    backdrop-filter: blur(8px);
+  }
+  .countdown-inner {
+    max-width: 1240px; margin: 0 auto; padding: 22px 28px;
+    display: flex; align-items: center; justify-content: center;
+    gap: 44px;
+    flex-wrap: wrap;
+  }
+  .countdown-label {
+    font-family: var(--display);
+    font-size: 15px;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    color: var(--ink-2);
+    display: flex; align-items: center; gap: 14px;
+  }
+  .countdown-label .pulse {
+    width: 8px; height: 8px; border-radius: 50%; background: var(--red);
+    box-shadow: 0 0 14px var(--red);
+    animation: pulse 1.6s ease-in-out infinite;
+  }
+  @keyframes pulse { 50% { opacity: 0.3; transform: scale(1.4); } }
+  .timer { display: flex; gap: 28px; }
+  .timer .unit { text-align: center; }
+  .timer .num {
+    font-family: var(--display);
+    font-size: 38px;
+    color: var(--ink);
+    line-height: 1;
+  }
+  .timer .u-label {
+    font-size: 10px; letter-spacing: 0.3em; text-transform: uppercase; color: var(--ink-3);
+    margin-top: 6px;
+  }
+  .timer .lbl-short { display: none; }
+  .timer .lbl-full { display: inline; }
+
+  /* ── Sections ─────────────────────────────────────── */
+  section { padding: 120px 0; position: relative; }
+
+  /* Light section variants */
+  .light .section-head h2 { color: var(--ink-dark); }
+  .light .section-head .lead { color: var(--ink-dark-2); }
+  .light .h-display.split-h, .light h2.h-display { color: var(--ink-dark); }
+
+  .section-head { margin-bottom: 64px; }
+  .section-head h2 {
+    font-size: clamp(40px, 5.5vw, 78px);
+    max-width: 18ch;
+    margin-top: 18px;
+  }
+  .section-head.center { text-align: center; }
+  .section-head.center h2 { margin-left: auto; margin-right: auto; }
+  .section-head .lead {
+    max-width: 640px; margin-top: 24px;
+    color: var(--ink-2);
+    font-size: 18px;
+  }
+  .section-head.center .lead { margin-left: auto; margin-right: auto; }
+
+  /* ══════════════ BENEFITS BAR (light) ══════════════ */
+  .benefits {
+    background: var(--ink-dark);
+    padding: 0;
+    border-top: 1px solid var(--line-dark);
+  }
+  .benefits-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+  }
+  .benefit {
+    display: flex; align-items: center; gap: 12px;
+    padding: 22px 28px;
+    font-family: var(--display);
+    font-size: 14px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--ink-2);
+    border-right: 1px solid var(--line-dark);
+    flex: 1;
+    min-width: 200px;
+    justify-content: center;
+  }
+  .benefit:last-child { border-right: none; }
+  .benefit svg { color: var(--red-hot); flex-shrink: 0; }
+
+  /* ══════════════ STORY (LIGHT section) ══════════════ */
+  .split {
+    display: grid;
+    grid-template-columns: 1fr 1.1fr;
+    gap: 80px;
+    align-items: center;
+  }
+  .split-img {
+    position: relative;
+    aspect-ratio: 4 / 5;
+    overflow: hidden;
+  }
+  .split-img img {
+    width: 100%; height: 100%; object-fit: cover;
+    transition: transform 0.8s ease;
+    filter: contrast(1.05);
+  }
+  .split-img:hover img { transform: scale(1.04); }
+  .split-img::before {
+    content: "";
+    position: absolute; top: -12px; left: -12px; right: 24px; bottom: 24px;
+    border: 2px solid var(--red);
+    z-index: -1;
+  }
+  .split-img::after {
+    content: "EST. 2016";
+    position: absolute;
+    bottom: 20px; left: 20px;
+    font-family: var(--display);
+    font-size: 13px;
+    letter-spacing: 0.3em;
+    color: var(--ink);
+    background: rgba(0,0,0,0.85);
+    padding: 8px 14px;
+    border-left: 2px solid var(--red);
+  }
+  .split-text h2 { color: var(--ink-dark); }
+  .split-text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .light .split-text p { color: var(--ink-dark-2); }
+  .light .split-text p strong { color: var(--ink-dark); font-weight: 600; }
+
+  /* ══════════════ COACH SECTION (DARK with bg image) ══════════════ */
+  .coach {
+    background: var(--bg);
+    position: relative;
+    overflow: hidden;
+  }
+  .coach::before {
+    content: "";
+    position: absolute; inset: 0;
+    background-image: url('images/coach-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(0.7) brightness(0.15);
+    opacity: 0.55;
+    z-index: 0;
+  }
+  .coach::after {
+    content: "";
+    position: absolute; inset: 0;
+    background: radial-gradient(ellipse at 30% 50%, rgba(200,32,44,0.12), transparent 60%),
+                linear-gradient(180deg, var(--bg) 0%, rgba(7,7,10,0.5) 40%, var(--bg) 100%);
+    z-index: 0;
+  }
+  .coach .container { position: relative; z-index: 2; }
+  .coach-wrap {
+    display: grid;
+    grid-template-columns: 0.95fr 1fr;
+    gap: 80px;
+    align-items: center;
+  }
+  .coach-portrait {
+    position: relative;
+    aspect-ratio: 4 / 5;
+    overflow: hidden;
+    background: var(--bg-3);
+  }
+  .coach-portrait img {
+    width: 100%; height: 100%; object-fit: cover;
+    object-position: center 20%;
+    filter: contrast(1.08) saturate(0.95);
+  }
+  .coach-portrait .badge {
+    position: absolute;
+    top: 24px; left: 24px;
+    background: var(--red);
+    color: var(--ink);
+    padding: 10px 16px;
+    font-family: var(--display);
+    font-size: 12px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+  }
+  .coach-portrait .name-tag {
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    background: linear-gradient(0deg, rgba(0,0,0,0.95), transparent);
+    padding: 60px 28px 24px;
+  }
+  .coach-portrait .name-tag .name {
+    font-family: var(--display);
+    font-size: 32px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+  .coach-portrait .name-tag .title {
+    font-size: 13px;
+    color: var(--red-hot);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-top: 4px;
+  }
+  .expect-list { list-style: none; margin-top: 30px; }
+  .expect-list li {
+    padding: 18px 0;
+    border-bottom: 1px solid var(--line-dark);
+    display: flex; align-items: flex-start; gap: 18px;
+    font-size: 17px;
+    color: var(--ink-2);
+  }
+  .expect-list li:last-child { border-bottom: none; }
+  .expect-list .bullet {
+    color: var(--red-hot);
+    font-family: var(--display);
+    font-size: 18px;
+    line-height: 1.4;
+    flex-shrink: 0;
+    min-width: 36px;
+  }
+
+  /* ══════════════ WHAT TO EXPECT (LIGHT) ══════════════ */
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    background: var(--line-light-strong);
+    border: 1px solid var(--line-light-strong);
+  }
+  .light .card {
+    background: var(--paper);
+    padding: 44px 32px;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+  .light .card:hover { background: #fff; }
+  .light .card::before {
+    content: "";
+    position: absolute; top: 0; left: 0;
+    width: 0; height: 3px;
+    background: var(--red);
+    transition: width 0.4s ease;
+  }
+  .light .card:hover::before { width: 100%; }
+  .light .card .icon-wrap {
+    width: 56px; height: 56px;
+    display: grid; place-items: center;
+    background: var(--ink-dark);
+    color: var(--paper);
+    margin-bottom: 24px;
+    transition: all 0.3s ease;
+  }
+  .light .card:hover .icon-wrap {
+    background: var(--red);
+    transform: rotate(-4deg);
+  }
+  .light .card h3 {
+    font-family: var(--display);
+    font-size: 24px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    color: var(--ink-dark);
+  }
+  .light .card p { color: var(--ink-dark-2); font-size: 16px; }
+
+  /* ══════════════ COMMUNITY (DARK with image) ══════════════ */
+  .community {
+    position: relative;
+    padding: 0;
+    overflow: hidden;
+  }
+  .community-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: stretch;
+    min-height: 720px;
+  }
+  .community-photo {
+    position: relative;
+    overflow: hidden;
+    background: var(--bg);
+  }
+  .community-photo img {
+    width: 100%; height: 100%; object-fit: cover;
+    transition: transform 1s ease;
+  }
+  .community-photo:hover img { transform: scale(1.04); }
+  .community-photo::after {
+    content: "";
+    position: absolute; inset: 0;
+    background: linear-gradient(135deg, transparent 50%, rgba(7,7,10,0.85) 100%);
+  }
+  .community-tag {
+    position: absolute;
+    bottom: 28px; left: 28px;
+    z-index: 2;
+    font-family: var(--display);
+    font-size: 13px;
+    letter-spacing: 0.3em;
+    color: var(--ink);
+    background: rgba(0,0,0,0.7);
+    padding: 10px 16px;
+    border-left: 2px solid var(--red);
+  }
+  .community-text {
+    background: var(--bg);
+    position: relative;
+    padding: 100px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .community-text::before {
+    content: "";
+    position: absolute; inset: 0;
+    background:
+      radial-gradient(circle at 80% 20%, rgba(200,32,44,0.14), transparent 50%),
+      radial-gradient(circle at 20% 80%, rgba(255,255,255,0.04), transparent 50%);
+  }
+  .community-text > * { position: relative; z-index: 2; }
+  .community-text h2 {
+    font-size: clamp(40px, 5vw, 72px);
+    margin: 18px 0 24px;
+  }
+  .community-text p {
+    color: var(--ink-2);
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 18px;
+  }
+  .community-text p strong { color: var(--ink); font-weight: 600; }
+
+  /* ══════════════ AUDIENCE (LIGHT) ══════════════ */
+  .audience-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+    margin-top: 32px;
+  }
+  .light .audience-item {
+    display: flex; align-items: center; gap: 16px;
+    padding: 20px 24px;
+    background: #fff;
+    border-left: 3px solid var(--red);
+    box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+    font-family: var(--display);
+    font-size: 17px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ink-dark);
+    transition: all 0.25s ease;
+  }
+  .light .audience-item:hover {
+    background: var(--red);
+    color: var(--ink);
+    transform: translateX(4px);
+    box-shadow: 0 8px 24px rgba(200, 32, 44, 0.25);
+  }
+  .light .audience-item:hover .check svg { color: var(--ink); }
+  .audience-item .check { display: inline-flex; }
+  .audience-item .check svg { color: var(--red); transition: color 0.25s; }
+
+  /* ══════════════ FINAL CTA (DARK with bg) ══════════════ */
+  .final {
+    background: var(--bg);
+    position: relative;
+    overflow: hidden;
+    padding: 140px 0;
+  }
+  .final-bg {
+    position: absolute; inset: 0;
+    background-image: url('images/final-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(0.6) brightness(0.25);
+    opacity: 0.4;
+  }
+  .final::before {
+    content: "";
+    position: absolute; inset: 0;
+    background:
+      radial-gradient(ellipse at 50% 0%, rgba(200,32,44,0.22), transparent 60%),
+      radial-gradient(ellipse at 50% 100%, rgba(255,255,255,0.05), transparent 60%),
+      linear-gradient(180deg, var(--bg) 0%, rgba(7,7,10,0.5) 50%, var(--bg) 100%);
+    pointer-events: none;
+    z-index: 1;
+  }
+  .final-content {
+    position: relative; z-index: 2;
+    text-align: center;
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 0 28px;
+  }
+  .final h2 {
+    font-size: clamp(44px, 6.5vw, 92px);
+    line-height: 0.92;
+    margin: 18px 0 28px;
+  }
+  .final .lead {
+    color: var(--ink-2);
+    font-size: 19px;
+    max-width: 640px;
+    margin: 0 auto 48px;
+  }
+  .event-card {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 14px;
+    padding: 32px 48px;
+    border: 1px solid var(--line-strong);
+    background: rgba(0,0,0,0.55);
+    backdrop-filter: blur(6px);
+    margin-bottom: 48px;
+  }
+  .event-card .row {
+    display: flex; gap: 36px; flex-wrap: wrap; justify-content: center;
+  }
+  .event-card .cell { text-align: left; }
+  .event-card .cell .l {
+    font-size: 11px; letter-spacing: 0.28em; text-transform: uppercase; color: var(--ink-3);
+  }
+  .event-card .cell .v {
+    font-family: var(--display);
+    font-size: 22px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-top: 4px;
+  }
+
+  /* ── Big CTA variant ───────────────────────────── */
+  .btn-xl {
+    padding: 24px 44px;
+    font-size: 18px;
+    letter-spacing: 0.2em;
+  }
+
+  /* ── Modal ─────────────────────────────────────── */
+  .modal-backdrop {
+    position: fixed; inset: 0;
+    background: rgba(7,7,10,0.85);
+    backdrop-filter: blur(8px);
+    z-index: 200;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    overflow-y: auto;
+  }
+  .modal-backdrop.open {
+    display: flex;
+    opacity: 1;
+  }
+  .modal-box {
+    position: relative;
+    width: 100%;
+    max-width: 540px;
+    background: linear-gradient(180deg, #15151c 0%, #0e0e12 100%);
+    border: 1px solid var(--line-strong);
+    box-shadow: 0 30px 80px rgba(0,0,0,0.7), 0 0 0 1px rgba(200,32,44,0.15);
+    padding: 48px 44px 40px;
+    transform: scale(0.94) translateY(20px);
+    opacity: 0;
+    transition: transform 0.4s cubic-bezier(.2,.9,.3,1.1), opacity 0.3s ease;
+    margin: auto;
+  }
+  .modal-backdrop.open .modal-box {
+    transform: scale(1) translateY(0);
+    opacity: 1;
+  }
+  .modal-box::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 64px; height: 3px;
+    background: var(--red);
+  }
+  .modal-close {
+    position: absolute;
+    top: 18px; right: 18px;
+    width: 36px; height: 36px;
+    background: transparent;
+    border: 1px solid var(--line-strong);
+    color: var(--ink-2);
+    display: grid; place-items: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  .modal-close:hover {
+    background: var(--red);
+    color: var(--ink);
+    border-color: var(--red);
+    transform: rotate(90deg);
+  }
+  .modal-eyebrow {
+    font-family: var(--display);
+    font-size: 12px;
+    letter-spacing: 0.32em;
+    text-transform: uppercase;
+    color: var(--red-hot);
+    margin-bottom: 14px;
+  }
+  .modal-title {
+    font-family: var(--display);
+    font-size: clamp(28px, 4vw, 38px);
+    line-height: 0.95;
+    text-transform: uppercase;
+    letter-spacing: -0.005em;
+    color: var(--ink);
+    margin-bottom: 12px;
+  }
+  .modal-title .gold { color: var(--red-hot); }
+  .modal-sub {
+    color: var(--ink-2);
+    font-size: 15px;
+    margin-bottom: 28px;
+  }
+  .modal-event-meta {
+    display: flex;
+    gap: 18px;
+    margin-bottom: 26px;
+    padding: 14px 16px;
+    background: rgba(255,255,255,0.03);
+    border-left: 2px solid var(--red);
+    flex-wrap: wrap;
+  }
+  .modal-event-meta .m {
+    display: flex; gap: 8px; align-items: center;
+    font-family: var(--display);
+    font-size: 13px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--ink-2);
+  }
+  .modal-event-meta svg { color: var(--red-hot); flex-shrink: 0; }
+
+  /* Honeypot — hidden from humans, visible to bots */
+  .hp-field {
+    position: absolute !important;
+    left: -10000px !important;
+    top: auto !important;
+    width: 1px !important;
+    height: 1px !important;
+    overflow: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+  }
+
+  .lead-form { text-align: left; }
+  .lead-form .row2 {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 10px;
+  }
+  .lead-form input {
+    width: 100%;
+    padding: 16px 18px;
+    font-family: var(--body);
+    font-size: 15px;
+    background: rgba(255,255,255,0.04);
+    border: 1.5px solid var(--line-strong);
+    color: var(--ink);
+    margin-bottom: 10px;
+    transition: all 0.2s;
+  }
+  .lead-form input::placeholder { color: var(--ink-3); }
+  .lead-form input:focus {
+    outline: none;
+    border-color: var(--red);
+    background: rgba(200,32,44,0.06);
+    box-shadow: 0 0 0 4px rgba(200,32,44,0.1);
+  }
+  .lead-form button {
+    width: 100%;
+    justify-content: center;
+    margin-top: 6px;
+  }
+  .lead-form .micro {
+    font-size: 12px;
+    color: var(--ink-3);
+    text-align: center;
+    margin-top: 14px;
+    letter-spacing: 0.04em;
+  }
+  .form-success {
+    display: none;
+    padding: 8px 0;
+    text-align: center;
+  }
+  .form-success .check-circle {
+    width: 76px; height: 76px;
+    margin: 8px auto 22px;
+    border-radius: 50%;
+    background: rgba(200,32,44,0.12);
+    border: 2px solid var(--red);
+    display: grid; place-items: center;
+    color: var(--red-hot);
+    animation: pop 0.5s cubic-bezier(.34,1.56,.64,1) both;
+  }
+  @keyframes pop {
+    from { transform: scale(0.6); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+  }
+  .form-success h3 {
+    font-family: var(--display);
+    font-size: 32px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--ink);
+    margin-bottom: 14px;
+  }
+  .form-success p { color: var(--ink-2); font-size: 15px; margin-bottom: 8px; }
+  .form-success .pill {
+    display: inline-block;
+    margin-top: 18px;
+    padding: 10px 18px;
+    background: rgba(200,32,44,0.12);
+    border: 1px solid var(--red);
+    font-family: var(--display);
+    font-size: 13px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--red-hot);
+  }
+  .lead-form.submitted form { display: none; }
+  .lead-form.submitted .form-success { display: block; }
+
+  body.modal-open { overflow: hidden; }
+
+  /* ── Footer ─────────────────────────────────────── */
+  footer {
+    background: var(--ink-dark);
+    border-top: 1px solid var(--line-dark);
+    padding: 60px 0 30px;
+    text-align: center;
+  }
+  footer .foot-brand {
+    display: inline-flex; align-items: center; gap: 14px;
+    margin-bottom: 22px;
+  }
+  footer .foot-brand img {
+    width: 72px; height: 72px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.55), 0 0 0 2px rgba(255,255,255,0.06);
+  }
+  footer .addr {
+    font-family: var(--display);
+    color: var(--ink-2);
+    margin-bottom: 12px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  footer .copy {
+    color: var(--ink-3);
+    font-size: 14px;
+    letter-spacing: 0.04em;
+  }
+
+  /* ── Reveal animation ─────────────────────────── */
+  .reveal {
+    opacity: 0;
+    transform: translateY(28px);
+    transition: opacity 0.9s ease, transform 0.9s ease;
+  }
+  .reveal.in {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* ── Mobile ─────────────────────────────────────── */
+  @media (max-width: 1024px) {
+    .hero-grid { grid-template-columns: 1fr; gap: 20px; }
+    .hero .eyebrow { display: none; }
+    .decade-mark { max-width: 200px; margin: 8px auto 16px; padding: 18px 20px 22px; }
+    .decade-mark .num { font-size: clamp(80px, 18vw, 110px); }
+    .decade-mark .top-tag { font-size: 11px; letter-spacing: 0.3em; }
+    .decade-mark .label { font-size: 10px; letter-spacing: 0.3em; margin-top: 10px; }
+    .decade-mark .label::before, .decade-mark .label::after { width: 14px; }
+    .hero-content { padding-bottom: 60px; }
+    .split, .coach-wrap { grid-template-columns: 1fr; gap: 48px; }
+    .cards { grid-template-columns: 1fr 1fr; }
+    .audience-grid { grid-template-columns: 1fr; }
+    .community-grid { grid-template-columns: 1fr; }
+    .community-photo { aspect-ratio: 4 / 3; }
+    .community-text { padding: 70px 32px; }
+    .hero { padding: 110px 0 40px; }
+    .hero-meta { gap: 20px 36px; }
+    .timer { gap: 18px; }
+    .timer .num { font-size: 28px; }
+    section { padding: 80px 0; }
+    .event-card { padding: 24px 28px; }
+    .event-card .row { gap: 24px; }
+    .lead-form .row2 { grid-template-columns: 1fr; }
+    .nav-cta { display: none; }
+    .benefit { flex: 1 1 50%; min-width: 0; border-right: none; border-bottom: 1px solid var(--line-dark); padding: 18px 14px; }
+    .benefit:nth-child(odd) { border-right: 1px solid var(--line-dark); }
+  }
+  @media (max-width: 1024px) {
+    /* Countdown sits below the 10 badge, centered */
+    .countdown-inner {
+      flex-direction: column;
+      align-items: center;
+      gap: 14px;
+      padding: 22px 28px;
+      text-align: center;
+    }
+    .countdown-label { justify-content: center; }
+    .timer {
+      gap: 28px;
+      justify-content: center;
+      width: 100%;
+    }
+    .timer .unit { text-align: center; }
+  }
+  @media (max-width: 520px) {
+    .container, .container-narrow { padding: 0 20px; }
+    .hero-ctas .btn { flex: 1; justify-content: center; padding: 18px 18px; font-size: 13px; }
+    .btn { font-size: 14px; padding: 16px 22px; }
+    .btn-xl { font-size: 15px; padding: 20px 28px; }
+    .cards { grid-template-columns: 1fr; }
+
+    /* Compact nav + smaller logo on phone */
+    nav.top { padding: 10px 0; }
+    nav.top .wrap { padding: 0 18px; }
+    .brand { gap: 0; }
+    .brand img { width: 36px; height: 36px; }
+    nav.top.scrolled .brand img { width: 32px; height: 32px; }
+    footer .foot-brand img { width: 56px; height: 56px; }
+
+    /* Smaller 10 badge on phone */
+    .decade-mark { max-width: 180px; padding: 10px 14px 12px; }
+    .decade-mark .num { font-size: clamp(72px, 22vw, 96px); }
+    .decade-mark .top-tag { font-size: 10px; letter-spacing: 0.28em; }
+    .decade-mark .label { font-size: 9px; letter-spacing: 0.26em; margin-top: 8px; }
+    .decade-mark .label::before, .decade-mark .label::after { width: 12px; }
+
+    .modal-box { padding: 40px 26px 32px; }
+    .lead-form .row2 { grid-template-columns: 1fr; }
+
+    /* Countdown on phone */
+    .countdown-inner { padding: 18px 20px; gap: 12px; }
+    .timer { gap: 18px; }
+  }
+  @media (max-width: 380px) {
+    .timer { gap: 14px; }
+    .timer .num { font-size: 26px; }
+    .brand img { width: 32px; height: 32px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ═══════════════════════ NAV ═══════════════════════ -->
+<nav class="top" id="nav">
+  <div class="wrap">
+    <a href="#top" class="brand">
+      <img src="images/logo.jpg" alt="Ares BJJ Omaha">
+    </a>
+    <a href="#" class="nav-cta" data-open-modal>Reserve Spot →</a>
+  </div>
+</nav>
+
+<!-- ═══════════════════════ HERO ═══════════════════════ -->
+<header class="hero" id="top">
+  <div class="hero-bg"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-grain"></div>
+
+  <div class="hero-content container">
+    <div class="hero-grid">
+      <div>
+        <span class="eyebrow">Ares BJJ Omaha • 10-Year Celebration</span>
+
+        <h1 class="h-display hero-headline">
+          Free <span class="red">Jiu-Jitsu</span> Seminar
+        </h1>
+
+        <h2 class="hero-kicker">
+          Celebrate <span class="gold">10 Years</span> of Ares BJJ Omaha with <span class="red">Coach Paul Nava</span>
+        </h2>
+
+        <p class="hero-sub">
+          A free seminar, belt promotions, food truck, bounce house, and a full day of community celebration. One unforgettable day, ten incredible years.
+        </p>
+
+        <div class="hero-meta">
+          <div class="meta-item">
+            <div class="icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="1"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+            </div>
+            <div>
+              <div class="label">When</div>
+              <div class="val">June 13 · 10:00 AM</div>
+            </div>
+          </div>
+          <div class="meta-item">
+            <div class="icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div>
+              <div class="label">Where</div>
+              <div class="val">4307 S. 120th St, Omaha</div>
+            </div>
+          </div>
+          <div class="meta-item">
+            <div class="icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L4 7v5c0 5 3 9 8 10 5-1 8-5 8-10V7z"/></svg>
+            </div>
+            <div>
+              <div class="label">Cost</div>
+              <div class="val">100% Free</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-ctas">
+          <a href="#" class="btn btn-primary" data-open-modal>Save Your Spot <span class="arrow">→</span></a>
+        </div>
+      </div>
+
+      <div class="decade-mark">
+        <div class="frame"></div>
+        <div class="top-tag">Celebrating</div>
+        <div class="num">10</div>
+        <div class="label">Years · One Community</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="countdown-bar">
+    <div class="countdown-inner">
+      <div class="countdown-label">
+        <span class="pulse"></span>
+        EVENT BEGINS IN
+      </div>
+      <div class="timer" id="timer">
+        <div class="unit"><div class="num" id="t-days">--</div><div class="u-label"><span class="lbl-full">Days</span><span class="lbl-short">Days</span></div></div>
+        <div class="unit"><div class="num" id="t-hours">--</div><div class="u-label"><span class="lbl-full">Hours</span><span class="lbl-short">Hrs</span></div></div>
+        <div class="unit"><div class="num" id="t-mins">--</div><div class="u-label"><span class="lbl-full">Minutes</span><span class="lbl-short">Min</span></div></div>
+        <div class="unit"><div class="num" id="t-secs">--</div><div class="u-label"><span class="lbl-full">Seconds</span><span class="lbl-short">Sec</span></div></div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ═══════════════════════ BENEFITS BAR ═══════════════════════ -->
+<div class="benefits">
+  <div class="benefits-row">
+    <div class="benefit">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+      Free Seminar
+    </div>
+    <div class="benefit">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+      Belt Promotions
+    </div>
+    <div class="benefit">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+      Food Truck
+    </div>
+    <div class="benefit">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+      Bounce House
+    </div>
+    <div class="benefit">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+      Social Hour
+    </div>
+    <div class="benefit">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+      Family Friendly
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════ STORY (LIGHT) ═══════════════════════ -->
+<section class="light" id="about">
+  <div class="container">
+    <div class="split">
+      <div class="split-img reveal">
+        <img src="images/story.jpg" alt="Ares BJJ Omaha students training">
+      </div>
+      <div class="split-text reveal">
+        <span class="eyebrow">A Decade On The Mats</span>
+        <h2 class="h-display" style="font-size: clamp(36px, 4.5vw, 64px); margin-top: 18px;">
+          A decade of <span style="color:var(--red)">jiu-jitsu</span>, friendship & community.
+        </h2>
+        <p style="margin-top: 28px;">
+          For the past 10 years, <strong>Ares BJJ Omaha has been more than just a gym.</strong> It's been a place where friendships were built, confidence was developed, challenges were overcome, and lives were transformed on the mats.
+        </p>
+        <p>
+          Now we're inviting <strong>YOU</strong> to celebrate this incredible milestone with us — whether you're a longtime student, brand new to Jiu-Jitsu, or simply someone who loves being part of a great community.
+        </p>
+        <p style="color: var(--red); font-weight: 700; font-size: 19px; margin-top: 24px; font-family: var(--display); letter-spacing: 0.04em; text-transform: uppercase;">
+          This event is for you.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════ COACH PAUL NAVA (DARK + bg image) ═══════════════════════ -->
+<section class="coach">
+  <div class="container">
+    <div class="coach-wrap">
+      <div class="coach-portrait reveal">
+        <img src="images/coach-paul-nava.jpg" alt="Coach Paul Nava, Ares Jiu-Jitsu Arizona">
+        <div class="badge">Guest Instructor</div>
+        <div class="name-tag">
+          <div class="name">Coach Paul Nava</div>
+          <div class="title">Owner · Ares Jiu-Jitsu Arizona</div>
+        </div>
+      </div>
+      <div class="reveal">
+        <span class="eyebrow">Featured Seminar</span>
+        <h2 class="h-display" style="font-size: clamp(36px, 4.5vw, 64px); margin-top: 18px;">
+          Train with <span style="color:var(--red-hot)">Coach Paul Nava.</span>
+        </h2>
+        <p style="margin-top: 24px; color: var(--ink-2); font-size: 18px;">
+          Coach Paul Nava, owner of Ares Jiu-Jitsu Arizona, will be leading this special <strong style="color:var(--ink)">FREE seminar</strong> as part of our 10-Year Celebration. Whether you're a beginner or experienced practitioner, this seminar delivers valuable insight and exciting live training.
+        </p>
+        <ul class="expect-list">
+          <li><span class="bullet">01</span><span>High-level Jiu-Jitsu instruction from a recognized leader in the Ares system.</span></li>
+          <li><span class="bullet">02</span><span>Practical techniques you can use immediately, regardless of experience level.</span></li>
+          <li><span class="bullet">03</span><span>A fun, welcoming atmosphere — built for community, not intimidation.</span></li>
+          <li><span class="bullet">04</span><span>An unforgettable experience on the mats with the entire Ares family.</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════ WHAT TO EXPECT (LIGHT) ═══════════════════════ -->
+<section class="light">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow center">The Full Experience</span>
+      <h2 class="h-display">This is more than just a <span style="color:var(--red)">seminar.</span></h2>
+      <p class="lead">A full day of training, celebration, and community — built for students, families, and anyone who loves Jiu-Jitsu.</p>
+    </div>
+    <div class="cards reveal">
+
+      <div class="card">
+        <div class="icon-wrap">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></svg>
+        </div>
+        <h3>Belt Promotions</h3>
+        <p>Celebrate the hard work and dedication of our students as we recognize their progress and achievements.</p>
+      </div>
+
+      <div class="card">
+        <div class="icon-wrap">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 17h4V5H2v12h3"/><path d="M20 17h2v-3.34a4 4 0 0 0-1.17-2.83L19 9h-5"/><path d="M14 17h1"/><circle cx="7.5" cy="17.5" r="2.5"/><circle cx="17.5" cy="17.5" r="2.5"/></svg>
+        </div>
+        <h3>Food Truck</h3>
+        <p>Great food for both kids and adults throughout the event — fuel up between rolls and conversations.</p>
+      </div>
+
+      <div class="card">
+        <div class="icon-wrap">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        </div>
+        <h3>Bounce House</h3>
+        <p>Family-friendly fun so the whole family — kids included — can enjoy the celebration with us.</p>
+      </div>
+
+      <div class="card">
+        <div class="icon-wrap">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        </div>
+        <h3>Social Hour</h3>
+        <p>Meet new people, reconnect with teammates, share stories, and celebrate together at our after-party social hour.</p>
+      </div>
+
+      <div class="card">
+        <div class="icon-wrap">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+        </div>
+        <h3>Games & Activities</h3>
+        <p>Expect exciting games, laughs, and fun moments scattered throughout the entire day for all ages.</p>
+      </div>
+
+      <div class="card">
+        <div class="icon-wrap">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18"/><path d="M5 21V7l8-4v18"/><path d="M19 21V11l-6-4"/><path d="M9 9v.01"/><path d="M9 12v.01"/><path d="M9 15v.01"/><path d="M9 18v.01"/></svg>
+        </div>
+        <h3>Open to Everyone</h3>
+        <p>Students, friends, families, visitors, and first-time guests — all welcome. No experience needed.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════ COMMUNITY (DARK, split with photo) ═══════════════════════ -->
+<section class="community">
+  <div class="community-grid">
+    <div class="community-photo reveal">
+      <img src="images/community.jpg" alt="Ares BJJ Omaha community">
+      <div class="community-tag">THE ARES FAMILY</div>
+    </div>
+    <div class="community-text reveal">
+      <span class="eyebrow">More Than A Gym</span>
+      <h2 class="h-display">A community.</h2>
+      <p>
+        At Ares BJJ Omaha, <strong>people come for Jiu-Jitsu</strong> — but they stay because of the people. Over the last decade, we've built an incredible community filled with support, encouragement, growth, and friendships that extend far beyond the mats.
+      </p>
+      <p>
+        This celebration honors <strong>every student, parent, coach, and teammate</strong> who helped make these 10 years possible. And we'd love for you to be part of it.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════ WHO SHOULD ATTEND (LIGHT) ═══════════════════════ -->
+<section class="light">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow center">Who Should Attend</span>
+      <h2 class="h-display">This event is <span style="color:var(--red)">perfect for…</span></h2>
+    </div>
+    <div class="container-narrow" style="padding: 0;">
+      <div class="audience-grid reveal">
+        <div class="audience-item">
+          <span class="check"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></span>
+          Current Ares BJJ Students
+        </div>
+        <div class="audience-item">
+          <span class="check"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></span>
+          Friends & Family Members
+        </div>
+        <div class="audience-item">
+          <span class="check"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></span>
+          Kids & Parents
+        </div>
+        <div class="audience-item">
+          <span class="check"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></span>
+          Beginners Curious About BJJ
+        </div>
+        <div class="audience-item">
+          <span class="check"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></span>
+          Experienced Practitioners
+        </div>
+        <div class="audience-item">
+          <span class="check"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></span>
+          Anyone Seeking Community
+        </div>
+      </div>
+      <p style="text-align:center; color: var(--ink-dark-2); margin-top: 36px; font-size: 18px;">
+        <strong style="color:var(--ink-dark)">No experience necessary.</strong> Just bring great energy and come ready to have fun.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════ FINAL CTA (DARK with bg image) ═══════════════════════ -->
+<section class="final" id="rsvp">
+  <div class="final-bg"></div>
+  <div class="final-content">
+    <span class="eyebrow center reveal">Don't Miss It</span>
+    <h2 class="h-display reveal">
+      Join the <span style="color:var(--ink)">10-Year</span><br>
+      <span style="color:var(--red-hot)">Celebration.</span>
+    </h2>
+    <p class="lead reveal">
+      Jiu-Jitsu. Community. Games. Food. Family fun. Socializing. Celebration. One of the biggest events in Ares BJJ Omaha history — and we want you there.
+    </p>
+
+    <div class="event-card reveal">
+      <div class="row">
+        <div class="cell">
+          <div class="l">Date</div>
+          <div class="v">June 13, 2026</div>
+        </div>
+        <div class="cell">
+          <div class="l">Time</div>
+          <div class="v">10:00 AM</div>
+        </div>
+        <div class="cell">
+          <div class="l">Location</div>
+          <div class="v">4307 S. 120th St, Omaha NE</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="reveal" style="margin-top: 8px;">
+      <a href="#" class="btn btn-primary btn-xl" data-open-modal>
+        Reserve My Free Spot <span class="arrow">→</span>
+      </a>
+      <p style="margin-top: 22px; font-size: 13px; color: var(--ink-3); letter-spacing: 0.04em;">
+        Takes 30 seconds. No payment, no commitment — just save your seat.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════ FOOTER ═══════════════════════ -->
+<footer>
+  <div class="container">
+    <div class="foot-brand">
+      <img src="images/logo.jpg" alt="Ares BJJ Omaha">
+    </div>
+    <div class="addr">4307 S. 120th St, Omaha NE</div>
+    <div class="copy">© 2026 Ares BJJ Omaha · 10 Years Strong · A Community Built on the Mats</div>
+  </div>
+</footer>
+
+<!-- ═══════════════════════ RSVP MODAL ═══════════════════════ -->
+<div class="modal-backdrop" id="rsvp-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+  <div class="modal-box">
+    <button class="modal-close" id="modal-close" aria-label="Close">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+
+    <div class="modal-eyebrow">Reserve Your Free Spot</div>
+    <h3 class="modal-title" id="modal-title">Save your seat at the <span class="gold">10-Year</span> Celebration.</h3>
+    <p class="modal-sub">Drop your details below — we'll send confirmation, event details, and a reminder.</p>
+
+    <div class="modal-event-meta">
+      <div class="m">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="1"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+        June 13 · 10 AM
+      </div>
+      <div class="m">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        Ares BJJ Omaha
+      </div>
+      <div class="m">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L4 7v5c0 5 3 9 8 10 5-1 8-5 8-10V7z"/></svg>
+        100% Free
+      </div>
+    </div>
+
+    <div class="lead-form" id="lead-form-wrap">
+      <form id="rsvp-form" onsubmit="return handleSubmit(event)" novalidate>
+        <!-- Honeypot fields (hidden from real users, bots fill them in) -->
+        <div class="hp-field" aria-hidden="true">
+          <label>Website</label>
+          <input type="text" name="website" tabindex="-1" autocomplete="off">
+          <label>Company</label>
+          <input type="text" name="company" tabindex="-1" autocomplete="off">
+        </div>
+        <input type="hidden" name="form_ts" id="form-ts" value="0">
+
+        <div class="row2">
+          <input type="text" name="first" placeholder="First Name" required autocomplete="given-name">
+          <input type="text" name="last" placeholder="Last Name" required autocomplete="family-name">
+        </div>
+        <input type="email" name="email" placeholder="Email Address" required autocomplete="email">
+        <input type="tel" name="phone" placeholder="Phone Number *" required autocomplete="tel">
+        <button type="submit" class="btn btn-primary">Reserve My Free Spot <span class="arrow">→</span></button>
+        <p class="micro">* Required field. We'll send event details + reminders. No spam, ever. Unsubscribe anytime.</p>
+      </form>
+      <div class="form-success">
+        <div class="check-circle">
+          <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+        </div>
+        <h3>Thank You<span id="success-name"></span>!</h3>
+        <p style="font-size:16px; color:var(--ink); margin-bottom:14px;">
+          You're officially registered for our <strong style="color:var(--red-hot)">10-Year Celebration</strong>.
+        </p>
+        <p>We're so excited to have you join us, and we can't wait to celebrate with you on <strong style="color:var(--red-hot)">June 13 at 10:00 AM</strong>.</p>
+        <p style="margin-top:12px;">A confirmation with event details and a reminder is on its way to your inbox.</p>
+        <span class="pill">See you on the mats</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  // ── Always load at top ─────────────────────────────
+  if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+  window.addEventListener('load', () => window.scrollTo(0, 0));
+  // Clear any stray hash that could jump the page
+  if (window.location.hash) {
+    history.replaceState(null, '', window.location.pathname + window.location.search);
+  }
+
+  // ── Countdown ──────────────────────────────────────
+  (function() {
+    const target = new Date('2026-06-13T10:00:00-05:00').getTime();
+    const $d = document.getElementById('t-days');
+    const $h = document.getElementById('t-hours');
+    const $m = document.getElementById('t-mins');
+    const $s = document.getElementById('t-secs');
+    function pad(n) { return String(n).padStart(2, '0'); }
+    function tick() {
+      const now = Date.now();
+      let diff = Math.max(0, target - now);
+      const days = Math.floor(diff / 86400000); diff -= days * 86400000;
+      const hours = Math.floor(diff / 3600000); diff -= hours * 3600000;
+      const mins = Math.floor(diff / 60000); diff -= mins * 60000;
+      const secs = Math.floor(diff / 1000);
+      $d.textContent = pad(days);
+      $h.textContent = pad(hours);
+      $m.textContent = pad(mins);
+      $s.textContent = pad(secs);
+    }
+    tick();
+    setInterval(tick, 1000);
+  })();
+
+  // ── Scroll reveal ──────────────────────────────────
+  (function() {
+    const els = document.querySelectorAll('.reveal');
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('in');
+          io.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.12 });
+    els.forEach(el => io.observe(el));
+  })();
+
+  // ── Nav scroll state ───────────────────────────────
+  (function() {
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 60) nav.classList.add('scrolled');
+      else nav.classList.remove('scrolled');
+    });
+  })();
+
+  // ── Modal open/close ───────────────────────────────
+  (function() {
+    const modal = document.getElementById('rsvp-modal');
+    const closeBtn = document.getElementById('modal-close');
+    const openers = document.querySelectorAll('[data-open-modal]');
+
+    function open(e) {
+      if (e) e.preventDefault();
+      modal.classList.add('open');
+      document.body.classList.add('modal-open');
+      // Stamp the time the form was opened — used by the honeypot timing check
+      const ts = document.getElementById('form-ts');
+      if (ts && !ts.value) ts.value = Date.now();
+      // Focus first input shortly after open animation
+      setTimeout(() => {
+        const first = modal.querySelector('input[name="first"]');
+        if (first && !document.getElementById('lead-form-wrap').classList.contains('submitted')) first.focus();
+      }, 320);
+    }
+    function close() {
+      modal.classList.remove('open');
+      document.body.classList.remove('modal-open');
+    }
+    openers.forEach(el => el.addEventListener('click', open));
+    closeBtn.addEventListener('click', close);
+    modal.addEventListener('click', (e) => { if (e.target === modal) close(); });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && modal.classList.contains('open')) close();
+    });
+  })();
+
+  // ── Form submit with honeypot bot protection ──────
+  function handleSubmit(e) {
+    e.preventDefault();
+    const form = e.target;
+    const data = Object.fromEntries(new FormData(form).entries());
+
+    // 🛡️ Honeypot check 1: hidden trap fields must be empty
+    if (data.website || data.company) {
+      console.warn('[bot blocked] honeypot tripped');
+      // Fake a success so bots don't realize they've been blocked
+      showSuccess(data.first);
+      return false;
+    }
+
+    // 🛡️ Honeypot check 2: too-fast submission (under 2.5s = likely bot)
+    const ts = parseInt(data.form_ts, 10);
+    if (ts && (Date.now() - ts) < 2500) {
+      console.warn('[bot blocked] submitted too fast');
+      showSuccess(data.first);
+      return false;
+    }
+
+    // ✅ Real user — strip honeypot fields and send
+    delete data.website;
+    delete data.company;
+    delete data.form_ts;
+
+    // TODO: wire to your CRM / email service (ConvertKit, Mailchimp, ActiveCampaign, Zapier webhook, etc.)
+    console.log('Lead captured:', data);
+
+    showSuccess(data.first);
+    return false;
+  }
+
+  function showSuccess(firstName) {
+    const nameEl = document.getElementById('success-name');
+    if (nameEl && firstName) {
+      // Sanitize: only allow letters, spaces, hyphens, apostrophes — strips any HTML
+      const clean = String(firstName).replace(/[^a-zA-Z\s\-'’]/g, '').trim().slice(0, 40);
+      if (clean) nameEl.textContent = ', ' + clean;
+    }
+    document.getElementById('lead-form-wrap').classList.add('submitted');
+  }
+</script>
+
+</body>
+</html>
